@@ -1,0 +1,159 @@
+********** INPUTS *****************************************************
+Ntdens =            9 Npot=            6
+ Stationary data
+Pflux(beta)= 2.00E+00 Pmass(gamma)= 1.00E+00 Pode= 2.00E+00
+-5.00E-01<=rhs        <=5.00E-01
+ 1.00E+00<=kappa      <=1.00E+00
+********** SYNCRONIZATION TDPOT ***************************************
+Steady Inputs
+1.00E+00<= TDENS <= 1.00E+00
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 6.6E-01 5.3E-08 1.1E-07  <<BICGSTAB>>WCT:0.0E+00 s
+**********  ***********************************************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter. =    0 | time  =  0.00E+00 | cpu =  0.00E+00
+1.00E+00<=TDENS<= 1.00E+00
+
+********** UPDATE 00001 | TIME STEP = 8.00E-01 ************************
+7.50E-01 < TDENS INCREMENT <  1.00E+00
+Steady Inputs
+2.00E-01<= TDENS <= 4.00E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 6.7E-01 4.5E-08 1.9E-08  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    1 | time =  8.00E-01 | cpu =  0.00E+00s (***%)  | var =  9.48E-01
+2.00E-01<=TDENS<= 4.00E-01
+
+********** UPDATE 00002 | TIME STEP = 8.00E-01 ************************
+1.50E-01 < TDENS INCREMENT <  2.00E-01
+Steady Inputs
+4.01E-02<= TDENS <= 2.80E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 6.9E-01 8.2E-06 7.4E-07  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    2 | time =  1.60E+00 | cpu =  0.00E+00s (***%)  | var =  7.55E-01
+4.01E-02<=TDENS<= 2.80E-01
+
+********** UPDATE 00003 | TIME STEP = 8.00E-01 ************************
+3.00E-02 < TDENS INCREMENT <  4.00E-02
+Steady Inputs
+8.02E-03<= TDENS <= 2.56E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.0E-01 1.2E-05 2.3E-07  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:1.00E-03 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    3 | time =  2.40E+00 | cpu =  1.00E-03s (100%)  | var =  3.21E-01
+8.02E-03<=TDENS<= 2.56E-01
+
+********** UPDATE 00004 | TIME STEP = 8.00E-01 ************************
+5.85E-03 < TDENS INCREMENT <  8.02E-03
+Steady Inputs
+1.61E-03<= TDENS <= 2.51E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.4E-05 5.0E-08  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    4 | time =  3.20E+00 | cpu =  1.00E-03s (100%)  | var =  7.49E-02
+1.61E-03<=TDENS<= 2.51E-01
+
+********** UPDATE 00005 | TIME STEP = 8.00E-01 ************************
+7.06E-04 < TDENS INCREMENT <  1.61E-03
+Steady Inputs
+3.21E-04<= TDENS <= 2.50E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.4E-05 1.0E-08  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    5 | time =  4.00E+00 | cpu =  1.00E-03s (100%)  | var =  1.50E-02
+3.21E-04<=TDENS<= 2.50E-01
+
+********** UPDATE 00006 | TIME STEP = 8.00E-01 ************************
+-4.04E-05 < TDENS INCREMENT <  4.01E-04
+Steady Inputs
+6.42E-05<= TDENS <= 2.50E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.4E-05 2.1E-09  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    6 | time =  4.80E+00 | cpu =  1.00E-03s (100%)  | var =  3.24E-03
+6.42E-05<=TDENS<= 2.50E-01
+
+********** UPDATE 00007 | TIME STEP = 8.00E-01 ************************
+-1.90E-04 < TDENS INCREMENT <  2.43E-04
+Steady Inputs
+1.28E-05<= TDENS <= 2.50E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.4E-05 5.2E-10  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    7 | time =  5.60E+00 | cpu =  1.00E-03s (100%)  | var =  1.62E-03
+1.28E-05<=TDENS<= 2.50E-01
+
+********** UPDATE 00008 | TIME STEP = 8.00E-01 ************************
+-3.36E-04 < TDENS INCREMENT <  3.40E-04
+Steady Inputs
+2.57E-06<= TDENS <= 2.50E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.4E-05 3.2E-10  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    8 | time =  6.40E+00 | cpu =  1.00E-03s (100%)  | var =  2.40E-03
+2.57E-06<=TDENS<= 2.50E-01
+
+********** UPDATE 00009 | TIME STEP = 8.00E-01 ************************
+-5.99E-04 < TDENS INCREMENT <  5.92E-04
+Steady Inputs
+5.14E-07<= TDENS <= 2.50E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.4E-05 3.1E-10  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =    9 | time =  7.20E+00 | cpu =  1.00E-03s (100%)  | var =  4.24E-03
+5.14E-07<=TDENS<= 2.50E-01
+
+********** UPDATE 00010 | TIME STEP = 8.00E-01 ************************
+-1.08E-03 < TDENS INCREMENT <  1.06E-03
+Steady Inputs
+1.03E-07<= TDENS <= 2.50E-01
+CTRL: relax_tdens= 0.00E+00 relax_direct= 1.00E-12 relax4prec= 1.00E-09
+ctrl%build_prec ==1 : ASSEMBLING STIFF + BUILDING PREC
+0    1 7.1E-01 1.5E-05 3.1E-10  <<BICGSTAB>>WCT:0.0E+00 s
+********** UPDATE SUCCEED - CPU:0.00E+00 ******************************
+
+********** INFO SYSTEM ************************************************
+**********  ***********************************************************
+ iter =   10 | time =  8.00E+00 | cpu =  1.00E-03s (100%)  | var =  7.61E-03
+1.03E-07<=TDENS<= 2.50E-01
+Update Number exceed limits          10

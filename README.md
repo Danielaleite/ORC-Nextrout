@@ -5,7 +5,7 @@ The **ORC-Nextrout** algorithm is designed to recover community structures in ne
 
 ORC-Nextrout is based on the theory described in this paper:
 
-- Community Detection in networks by Dynamical Optimal Transport Formulation. D. Leite, D. Baptista, A. Ibrhaim, E. Facca and C. D. Bacco [arXiv](https://arxiv.org/abs/2205.08468)
+- Community Detection in networks by Dynamical Optimal Transport Formulation. D. Leite, D. Baptista, A. Ibrhaim, E. Facca and C. D. Bacco ([arXiv](https://arxiv.org/abs/2205.08468)).
 
 Please consider citing our work if you use this code.
 
@@ -21,10 +21,9 @@ You can simply clone this repository:
 
 ```
 git clone https://github.com/Danielaleite/ORC-Nextrout
-
 ```
 
-You can check the tutorial [here](https://github.com/Danielaleite/ORC-Nextrout/blob/main/code/tutorial.ipynb).
+You can check a step-by-step on how to use it inside the tutorial [here](https://github.com/Danielaleite/ORC-Nextrout/blob/main/code/tutorial.ipynb).
 
 ## Authors
 

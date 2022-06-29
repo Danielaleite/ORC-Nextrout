@@ -23,7 +23,7 @@ You can simply clone this repository:
 git clone https://github.com/Danielaleite/ORC-Nextrout
 ```
 
-You can check a step-by-step on how to use it inside the tutorial [here](https://github.com/Danielaleite/ORC-Nextrout/blob/main/code/tutorial.ipynb).
+You can check a step-by-step on how to use it on a real network inside the tutorial [here](https://github.com/Danielaleite/ORC-Nextrout/blob/main/code/tutorial.ipynb).
 
 ## Authors
 

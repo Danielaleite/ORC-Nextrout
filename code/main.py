@@ -35,10 +35,13 @@ sys.path.append("../nextrout_tutorial/")
 import main
 
 file_path = os.path.dirname(os.path.realpath(__file__))
-abs_path = file_path.split("ORC-Nextrout-dev")[0]
+abs_path = file_path.split("ORC-Nextrout")[0]
 sys.path.append(abs_path + "/Nextrout/nextrout_core/")
-print(abs_path)
-import filtering as fn
+try: #accessing Nextrout
+    test = os.listdir(abs_path + "/Nextrout/nextrout_core/")
+    import filtering as fn
+except:
+    ValueError('Wrong Nextrout path')
 
 ##############################  MT  ######################################
 import mt_tools

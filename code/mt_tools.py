@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("./../test_crep/src/")
+sys.path.append("./plot_code/")
 import vizCM as viz
 import pandas as pd
 import networkx as nx
